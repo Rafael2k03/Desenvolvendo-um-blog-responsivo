@@ -1,0 +1,395 @@
+@media only screen and (min-width: 2000px) {
+    * {
+        margin: 0;
+    }
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, rgba(5, 238, 156, 0.5) 50.91%, rgba(12, 112, 242, 0) 70.84%), #75a894;
+        background-repeat: no-repeat;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit; /* Inherit the color from the parent element */
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../font/Montserrat-VariableFont_wght.ttf');
+    }
+
+    #top-panel {
+        background-color: #02A28F;
+        margin: 0;
+        height: 70px;
+    }
+
+    h1 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        padding-left: 230px;
+        padding-top: 10px;
+        background-image: url("/assets/images/images.jpg");
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 50px;
+    }
+
+    h2 {
+        font-family: 'Montserrat';
+        font-size: 32px;
+        font-weight: 700;
+        padding-left: 20px;
+    }
+
+    .container {
+        display: flex;
+        gap: 25px; /* Spacing between columns */
+    }
+
+    .container1 {
+        display: flex;
+        height: 1200px;
+        gap: 25px; /* Spacing between columns */
+        padding-left: 5px;
+    }
+
+    .image-container {
+        position: relative;
+    }
+
+    .image-container img {
+        width: 1244px;
+        height: 496px;
+        margin-top: 80px;
+        padding-left: 237px;
+        filter: grayscale(100%);
+        transition: all 0.5s;
+    }
+
+    .image-container img:hover {
+        filter: grayscale(0%);
+    }
+
+    .text-overlay {
+        position: absolute;
+        bottom: 0;
+        width: 42%;
+        color: white;
+        text-align: left;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-left: 237px;
+    }
+
+    .sidebar {
+        width: 461px; /* Occupies 35% of the container width */
+        height: 496px;
+        margin-top: 70px;
+    }
+
+    .sidebar h3 {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 10px 15px;
+        background-color: #02A28F;
+        margin: 8px 0 36px 0;
+        color: white;
+    }
+
+    .post-item {
+        display: flex;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .post-item img {
+        width: 132px;
+        height: 70px;
+        margin-right: 15px;
+        object-fit: cover; /* Ensures the image fills the available space */
+    }
+
+    .post-content {
+        flex: 1;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+    }
+
+    .post-item h4 {
+        margin: 0 0 10px 0;
+        font-size: 1.2em;
+    }
+
+    .post-item p {
+        margin: 0;
+        color: #fe0b0b;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    #text-image1, #text-image3 {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 400; /* Default for text-image1 */
+    }
+
+    #text-image3 {
+        font-weight: 700; /* Bold for text-image3 */
+    }
+
+    .sidebar2 {
+        width: 1234px; /* Occupies 35% of the container width */
+        height: 496px;
+        margin-top: 25px;
+        padding-left: 240px;
+    }
+
+    .sidebar2 h3 {
+        font-family: 'Montserrat';
+        font-size: 25px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 20px 35px;
+        background-color: #02A28F;
+        margin: 8px 0 36px 0;
+        color: white;
+    }
+
+    .recent-posts {
+        display: flex;
+        flex-wrap: wrap; /* Wraps to the next line after 2 posts */
+        width: 1239px; /* Exact width for two posts per row */
+        gap: 20px; /* Spacing between posts */
+        justify-content: center; /* Center the posts within the container */
+        padding-bottom: 150px;
+    }
+
+    .post {
+        width: calc(50% - 10px); /* Each post occupies half the container width minus spacing */
+        background-color: lightgray; /* Example background */
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .post img {
+        width: 100%; /* The image takes the full width of the post */
+        border-radius: 20px;
+    }
+
+    .post p {
+        background-color: lightgray; /* Example background for text */
+        padding: 5px;
+        border-radius: 5px;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: #02A28F;
+    }
+
+    h4 {
+        margin-left: 25px;
+    }
+
+    .bold {
+        font-weight: bold; /* Bold text */
+    }
+
+    .thin {
+        font-weight: 100; /* Thin text */
+    }
+
+    .text-content {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: black;
+    }
+
+    .date {
+        color: #fe0b0b;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    footer {
+        background-color: #02A28F; /* Optional background color */
+        text-align: center; /* Center the text */
+        padding: 30px 0;
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .bottom-panel {
+        margin: 0;
+        padding: 0;
+    }
+
+    .categories {
+        font-family: 'Montserrat';
+        margin-top: 25px;
+        width: 468px; /* Adjust as necessary */
+    }
+
+    .categories h3 {
+        font-family: 'Montserrat';
+        font-size: 25px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 20px 35px;
+        background-color: #02A28F;
+        color: white;
+    }
+
+    .categories ul {
+        list-style-type: none; /* Remove default list bullets */
+        padding: 0;
+    }
+
+    .categories li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: #616161;
+    }
+
+    .categories li span:first-child {
+        font-weight: bold;
+        color: #000; /* Category text color */
+    }
+
+    .categories .quantity {
+        font-weight: normal;
+        color: #616161; /* Number color */
+        margin-left: auto; /* Ensures the number is aligned to the right */
+    }
+}
+
+/* Responsive Design Adjustments */
+
+@media only screen and (max-width: 385px) {
+    * {
+        margin: 0;
+    }
+
+    html, body {
+        width: 365px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, rgba(5, 238, 156, 0.5) 50.91%, rgba(12, 112, 242, 0) 70.84%), #75a894;
+        background-repeat: no-repeat;
+    }
+
+    #top-panel {
+        background-color: #02A28F;
+        width: 375px;
+        height: 60px;
+    }
+
+    h1 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        text-align: center;
+        background-image: url("/assets/images/images.jpg");
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-size: 24px;
+        padding-top: 13px;
+    }
+
+    h2 {
+        font-family: 'Montserrat';
+        font-size: 32px;
+        font-weight: 700;
+        padding-left: 5px;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto; /* Ensures responsive images */
+        filter: grayscale(100%);
+        transition: all 0.5s;
+    }
+
+    .image-container img:hover {
+        filter: grayscale(0%);
+    }
+
+    .sidebar {
+        width: 100%; /* Full width for small screens */
+        height: auto; /* Adjust height based on content */
+        margin-top: 15px;
+    }
+
+    .sidebar h3 {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 10px 15px;
+        background-color: #02A28F;
+        margin: 8px 0 16px 0;
+        color: white;
+        text-align: center;
+    }
+
+    .post-item {
+        flex-direction: column; /* Stack elements vertically */
+        margin-bottom: 15px;
+    }
+
+    .post-content {
+        font-family: 'Montserrat';
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+        padding: 10px; /* Add some padding */
+    }
+
+    footer {
+        background-color: #02A28F; /* Optional background color */
+        text-align: center; /* Center the text */
+        padding: 15px 0;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .categories {
+        font-family: 'Montserrat';
+        margin-top: 25px;
+        width: 100%; /* Full width */
+    }
+
+    .categories h3 {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 10px 15px;
+        background-color: #02A28F;
+        color: white;
+        text-align: center; /* Center the text */
+    }
+}
