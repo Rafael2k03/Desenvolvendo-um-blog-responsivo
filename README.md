@@ -108,5 +108,3 @@ Rafael2k03/Rafael2k03 is a ✨ special ✨ repository because its `README.md` (t
 You can click the Preview link to take a look at your changes.
 --->
 ```
-
-Feel free to copy and paste this directly into your README.md file on GitHub!
