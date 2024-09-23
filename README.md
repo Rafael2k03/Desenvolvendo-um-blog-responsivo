@@ -1,5 +1,3 @@
-Sure! Here’s the README translated into English and divided into three main parts:
-
 ```markdown
 # 🌐 The Dev News 
 
